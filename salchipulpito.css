@@ -1,0 +1,38 @@
+.flex{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: start;
+    border: 5px solid yellow;
+    height: 100vh;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}
+
+.item{
+    background: #096432;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    overflow: visible;
+
+}
+
+.item-3{
+   background: tomato;
+}
+.item-2 {
+    align-self: flex-end;
+}
+.img {
+    background: black;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.profile-pic {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 50%;
+}
